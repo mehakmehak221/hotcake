@@ -13,9 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Maxtron — Investor Grade Infrastructure",
+  title: "Maxtron Flagship Solutions",
   description:
-    "High-impact AI, Web3, and Enterprise Technology solutions built for scale, automation, and business growth.",
+    "Maxtron flagship solutions in one place: AI audits, smart contract security, infra cost optimization, mobile crash intelligence, crypto trading automation, and RWA tokenization.",
+  icons: {
+    icon: "/maxtronlogo.svg",
+    apple: "/maxtronlogo.svg",
+  },
 };
 
 export default function RootLayout({
@@ -28,7 +32,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-[var(--hc-bg)] text-[var(--hc-heading)]">{children}</body>
+      <body className="min-h-full bg-white text-gray-900">{children}</body>
     </html>
   );
 }
