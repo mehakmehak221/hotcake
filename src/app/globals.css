@@ -121,14 +121,12 @@ body {
 }
 
 .hc-gradient-text-animate {
-  background: linear-gradient(
-    120deg,
-    var(--hc-purple-deep) 0%,
-    var(--hc-purple) 35%,
-    #a855f7 55%,
-    var(--hc-purple-dark) 75%,
-    #c084fc 100%
-  );
+  background: linear-gradient(120deg,
+      var(--hc-purple-deep) 0%,
+      var(--hc-purple) 35%,
+      #a855f7 55%,
+      var(--hc-purple-dark) 75%,
+      #c084fc 100%);
   background-size: 220% auto;
   -webkit-background-clip: text;
   background-clip: text;
@@ -137,10 +135,12 @@ body {
 }
 
 @keyframes hc-gradient-shimmer {
+
   0%,
   100% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
@@ -158,6 +158,7 @@ body {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-50%);
   }
@@ -172,6 +173,7 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   .hc-ambient,
   .hc-marquee-track,
   .hc-float,
@@ -182,11 +184,13 @@ body {
 }
 
 @keyframes hc-ambient-drift {
+
   0%,
   100% {
     transform: translate(0, 0) scale(1);
     opacity: 0.45;
   }
+
   50% {
     transform: translate(2%, -2%) scale(1.05);
     opacity: 0.65;
@@ -198,10 +202,12 @@ body {
 }
 
 @keyframes hc-float {
+
   0%,
   100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-8px);
   }
@@ -222,12 +228,10 @@ body {
   inset: 0;
   translate: -120% 0;
   skew: -12deg;
-  background: linear-gradient(
-    105deg,
-    transparent 0%,
-    rgba(255, 255, 255, 0.4) 45%,
-    transparent 70%
-  );
+  background: linear-gradient(105deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.4) 45%,
+      transparent 70%);
   opacity: 0;
   transition: translate 0.55s ease, opacity 0.35s ease;
   pointer-events: none;

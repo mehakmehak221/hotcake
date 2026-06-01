@@ -10,7 +10,7 @@ export function MaxtronLogo({ size = 40, className = "", priority = false }: Max
   return (
     <Image
       src="/maxtronlogo.svg"
-      alt="Maxtron Flagship Solutions"
+      alt="Maxtron White-Label Solutions"
       width={size}
       height={size}
       className={className}

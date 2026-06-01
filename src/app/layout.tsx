@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Maxtron Flagship Solutions",
+  title: "Maxtron White-Label Solutions",
   description:
-    "Maxtron flagship solutions in one place: AI audits, smart contract security, infra cost optimization, mobile crash intelligence, crypto trading automation, and RWA tokenization.",
+    "Maxtron white-label solutions in one place: AI audits, smart contract security, infra cost optimization, mobile crash intelligence, crypto trading automation, and RWA tokenization.",
   icons: {
     icon: "/maxtronlogo.svg",
     apple: "/maxtronlogo.svg",
