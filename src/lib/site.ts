@@ -1,4 +1,4 @@
-export const CALENDLY_URL = "https://caladdly.com/business-maxtron/new-meeting";
+export const CALENDLY_URL = "https://calendly.com/maxtronize/30min";
 
 export const API_BASE_URL = "https://hot-cake-backend.onrender.com";
 
